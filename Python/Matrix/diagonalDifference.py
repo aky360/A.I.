@@ -6,13 +6,12 @@ def diagonalDifference(arr):
     for i in range(0, len(arr)):
         for j in range(0, len(arr[0])):
             if(i == j):
-                x = x + arr[i][j]
+                x += arr[i][j]
                 
             if(j == n-i-1):
-                y = y + arr[i][j]
+                y += arr[i][j]
     
     return abs(x-y)
-
 
 
 
