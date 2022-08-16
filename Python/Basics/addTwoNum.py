@@ -33,6 +33,19 @@ class Add:
             
         return self.addTwoRec(x^y, (x&y)<<1)
     
+    
+    # leetcode solution for sum of two integer 
+    def getSum(a: int, b: int) -> int:
+        while(a!=0 and b!=0):
+            an = a&b
+            xor = a^b
+            a = an<<1
+            b = xor
+        if(a!=0):
+            return a
+        else:
+            return b
+    
         
         
 add = Add()
