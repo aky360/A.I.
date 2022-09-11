@@ -1,6 +1,5 @@
-print("Binary representation of {0} is {0:b}".format(12))
-
-print("{0:b}".format(10))
+print("Binary representation of {0} is {0:b}".format(12))            # Binary representation of 12 is 1100
+print("{0:b}".format(10))                                            # 1010
 
 
 
@@ -8,10 +7,10 @@ str = 'cold'
 
 # enumerate()
 list_enumerate = list(enumerate(str))
-print('list(enumerate(str) = ', list_enumerate)           # list(enumerate(str) =  [(0, 'c'), (1, 'o'), (2, 'l'), (3, 'd')]
+print('list(enumerate(str) = ', list_enumerate)                      # list(enumerate(str) =  [(0, 'c'), (1, 'o'), (2, 'l'), (3, 'd')]
 
 #character count
-print('len(str) = ', len(str))                            # len(str) =  4
+print('len(str) = ', len(str))                                       # len(str) =  4
 
 
 
