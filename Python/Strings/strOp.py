@@ -11,10 +11,12 @@ print(string.split())                                           # ['This', 'will
 string = "This will split all words into a list"
 list_a = string.split()
 print(list_a)                                                   # ['This', 'will', 'split', 'all', 'words', 'into', 'a', 'list']
+print(string.split())                                           # ['This', 'will', 'split', 'all', 'words', 'into', 'a', 'list']
 
-x = ' '.join(list_a)                                            # 
-y = ', '.join(list_a)                                           #
-z = ' :'.join(list_a)                                           #
+
+x = ' '.join(list_a)                                            # x = ' '.join(string.split())
+y = ', '.join(list_a)                                           # y = ', '.join(string.split())
+z = ' :'.join(list_a)                                           # z = ' :'.join(string.split())
 
 print(x)                                                        # This will split all words into a list
 print(y)                                                        # This, will, split, all, words, into, a, list
