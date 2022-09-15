@@ -9,6 +9,8 @@ def squareRoot(x: int)->int:
         
     return left if(left == x/left) else left-1
     
-print(squareRoot(4096))
-print(squareRoot(1048))
-print(squareRoot(121))
+    
+if __name__ == "__main__" :
+        print(squareRoot(4096))
+        print(squareRoot(1048))
+        print(squareRoot(121))
