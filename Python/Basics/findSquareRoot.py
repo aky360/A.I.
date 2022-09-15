@@ -1,7 +1,5 @@
 def squareRoot(x: int)->int:
-    left=1
-    right=x
-    result=0
+    left, right, result=1, x, 0
     while(left<right):
         mid = int(left + (right-left)/2)
         if(mid<x/mid):
