@@ -9,14 +9,12 @@ class Solution:
     def stringCompare(self, s: str):
         chars = []
         for char in s:
-            print(char)
             if char == "#" and len(chars) >= 1:
-                print(chars.pop())
+                chars.pop()
             else:
                 if "#" in chars:
-                    print(chars.pop())
-                chars.append(char) 
-                print(chars)
+                    chars.pop()
+                chars.append(char)       
         return chars
         
         
