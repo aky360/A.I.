@@ -32,3 +32,13 @@ print('type of of values ', type([*num_cons.values()]))                         
 arr = [*num_cons.values()]
 print(type(arr), ' => ', arr)                                                               # <class 'list'>  =>  [1, 2, 34, 5, 66, 7, 88]
 
+
+***
+find the value of dictionary from key using get method
+***
+
+x = {'a':1, 'b':2, 'c':'x'}
+print('value ', x.get('a', 0))                                                              # count 1
+print('value ', x.get('b', 0))                                                              # count 2
+print('value ', x.get('c', 0))                                                              # count x
+print('value ', x.get('d', 0))                                                              # count 0
