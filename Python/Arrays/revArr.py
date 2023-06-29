@@ -12,7 +12,6 @@ print("reversed list is :", A)
 
 
 # Recursive python program to reverse an array
- 
 # Function to reverse A[] from start to end
 def reverseList(A, start, end):
     if start >= end:
