@@ -66,18 +66,13 @@ if __name__ == '__main__':
 def findPair(nums, target):
     d = {}
  
-    # do for each element
     for i, e in enumerate(nums):
- 
-        # if the difference is seen before, print the pair
+        # if the difference is seen before, return the pair
         if target - e in d:
-            print('Pair found', (nums[d.get(target - e)], nums[i]))
-            return
- 
+            return [nums[d.get(target - e)], nums[i])]
         # store index of the current element in the dictionary
         d[e] = i
- 
-    print('Pair not found')
+    return 
  
  
 if __name__ == '__main__':
@@ -85,3 +80,15 @@ if __name__ == '__main__':
     nums = [8, 7, 2, 5, 3, 1]
     target = 10
     findPair(nums, target)
+
+
+####################################################################################################################################
+
+def twoSum(nums, target):
+    mapCon = {}
+    for i, n in enumerate(nums):
+        diff = target - n
+        if diff in mapCon:
+            return [mapCon[diff], i]
+        mapCon[n] = i
+    return 
