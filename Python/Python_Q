@@ -1,0 +1,288 @@
+                  INTRODUCTION PYTHON
+
+Q 1: Write a Python program to print "Hello, World!"
+Q 2: Calculate the sum of two numbers entered by the user.
+Q 3: Convert temperature from Celsius to Fahrenheit.
+
+
+                  PRACTICE QUESTIONS
+
+Write a Python program to calculate the area of a rectangle given its length and width
+Create a program that takes a user's name and age as input and prints a greeting message.
+Write a program to check if a number is even or odd.
+Given a list of numbers, find the maximum and minimum values
+Create a Python function to check if a given string is a palindrome
+Calculate the compound interest for a given principal amount, interest rate, and time period
+Write a program that converts a given number of days into years, weeks, and days
+Given a list of integers, find the sum of all positive numbers
+Create a program that takes a sentence as input and counts the number of words in it
+Implement a program that swaps the values of two variables
+
+
+
+             VARIABLES AND DATA TYPES
+
+Create variables for storing a person's name, age, and average test score
+Concatenate two strings and print the result.
+Create a list of fruits and access elements using indexing.
+
+                       
+                      PRACTICE QUESTIONS
+
+Given a list of numbers, find the sum and average
+Create a program that takes a temperature in Celsius and converts it to Kelvin
+Implement a program that checks if a given string is a palindrome
+Create a function to reverse a given string
+Given a list of names, concatenate them into a single string separated by spaces
+Write a Python program to check if a given string is a pangram (contains all letters of the alphabet)
+Calculate the area and circumference of a circle given its radius
+Implement a program that converts a given number of minutes into hours and minutes
+Create a function to count the number of vowels in a given string
+Write a program to check if a number is prime
+
+
+
+
+Write a program that checks if a given number is positive, negative, or zero.
+Create a loop that prints the first 10 even numbers.
+Implement a program that finds the largest number in a list.
+
+                          
+                          PRACTICE QUESTIONS
+
+Create a program that takes a year as input and checks if it is a leap year or not)
+Given a list of integers, find all the even numbers and store them in a new list)
+Write a Python program to check if a given number is a prime number)
+Create a program that generates the Fibonacci sequence up to a given number of terms)
+Given a list of names, print all names starting with the letter 'A')
+Implement a program that prints the multiplication table of a given number)
+Write a program that calculates the factorial of a given number)
+Create a loop that prints all prime numbers between 1 and 50)
+Given a list of words, count the number of words with more than five characters)
+Calculate the sum of digits of a given number.
+
+
+
+Write a function to calculate the area of a circle given its radius.
+Create a function to check if a number is prime.
+Implement a function that reverses a given string.
+
+
+
+                   PRACTICE QUESTIONS
+
+Given a list of numbers, create a function to find the sum of all positive numbers"
+Write a Python function to check if a given string is a palindrome"
+Implement a function that returns the factorial of a given number using recursion"
+Create a function to find the square of each element in a given list"
+Write a function to check if a number is even or odd and return "Even" or "Odd" accordingly"
+Calculate the area of a triangle given its base and height using a function"
+Create a function that takes a list of strings and returns the list sorted alphabetically"
+Write a function that takes two lists and returns their intersection (common elements)"
+Implement a function to check if a given year is a leap year or not"
+Create a function that takes a number as input and prints its multiplication table
+
+
+
+
+Create a program that checks if a given string is a palindrome.
+Write a function to count the number of vowels in a given string.
+Write a function to count the number of vowels in a given string.
+
+
+                        PRACTICE QUESTIONS
+
+Given a list of words, concatenate them into a single string separated by spaces
+Create a function to reverse a given string
+Write a program that takes a sentence as input and counts the number of words in it
+Implement a function that checks if a given string is a pangram (contains all letters of the alphabet)
+Given a string, write a function to remove all vowels from it and return the modified string
+Write a Python program to find the length of the longest word in a sentence
+Create a function that takes a sentence as input and returns the sentence in reverse order
+Given a list of names, count the number of names that start with a vowel
+Write a function to remove all duplicate characters from a given string
+Implement a program that takes a sentence and a word as input and checks if the word is present in the sentence.
+
+
+
+
+Given a list of numbers, find the sum and average using built-in functions.
+Create a list of fruits and add a new fruit to the list.
+Access elements in a tuple using indexing.
+
+                      
+
+                 PRACTICE QUESTIONS
+
+
+Given two lists of numbers, concatenate them into a single list
+Write a program that finds the largest and smallest elements in a list
+Implement a function that takes a list of numbers and returns a new list with the squared values
+Create a program that finds the common elements between two lists and stores them in a new list
+Given a list of words, find the word with the maximum length and its length
+Write a Python program to count the occurrences of each element in a given list
+Given a list of names, remove all duplicate names and print the unique names
+Create a function that takes a list of strings and returns the list sorted by the length of the strings
+Write a program that checks if a given list is sorted in ascending order
+Implement a function that takes two lists and returns their union (all unique elements from both lists)
+
+
+
+
+Create a dictionary to store information about a person (name, age, address).
+Add a new key-value pair to an existing dictionary.
+Create a set of unique numbers from a list of numbers.
+
+                          
+                   PRACTICE QUESTIONS
+
+Given two dictionaries, merge them into a single dictionary
+Write a program that finds the most frequent element in a list
+Implement a function that removes a key-value pair from a dictionary
+Create a program that checks if two sets have any elements in common
+Given a list of dictionaries, find the dictionary with the highest value for a specific key
+Write a Python program that counts the number of occurrences of each character in a given string using a dictionary
+Given two sets, find the union, intersection, and difference between them
+Create a function that takes a list of dictionaries and sorts them based on a specified key
+Write a program that finds the average value of all the elements in a list of dictionaries
+Implement a function that takes a list of strings and returns a set of unique characters present in all strings.
+
+
+
+
+
+Write a program that reads a text file and prints its contents.
+Create a new text file and write some content into it.
+Read a CSV file and process its data.
+
+
+                      PRACTICE QUESTIONS
+
+Write a Python program to copy the contents of one text file into another
+Given a CSV file with student names and scores, find the student with the highest score
+Implement a program that reads a text file and counts the number of words and lines in it2
+Create a function that takes a list of sentences and writes them to a new text file, each on a new line
+Given a CSV file with employee details (name, age, salary), calculate the average salary of all employees
+Write a program that reads a CSV file and finds the total sales revenue for a specific product
+Given a text file with a list of numbers, write a function that finds the sum of all numbers in the file
+Implement a program that reads a CSV file and generates a bar chart to represent the data using Matplotlib
+Write a function that reads a JSON file and extracts specific information from it
+Given a CSV file with temperature data for each day of the week, find the average temperature for each day.
+
+
+
+
+
+
+Create a class to represent a basic calculator with add, subtract, multiply, and divide methods.
+Create a class to represent a book with attributes like title, author, and publication year.
+Define a class for a Circle with methods to calculate its area and circumference.
+
+
+
+                      PRACTICE QUESTIONS
+
+
+Create a class to represent a Student with attributes like name, age, and grades
+Given a CSV file with employee details (name, position, salary), create a class to represent an Employee
+Implement a program that simulates a basic bank account using a BankAccount class
+Write a Python program that uses a Rectangle class to calculate the area and perimeter of a rectangle
+Create a class to represent a Car with attributes like make, model, and year
+Given a JSON file with customer data, create a Customer class to store and manipulate the data
+Write a program that uses a Person class to keep track of a person's name, age, and address
+Implement a program that uses a Circle class to calculate the area and circumference of multiple circles
+Given a CSV file with product details (name, price, quantity), create a Product class to manage the data
+Create a class to represent a Movie with attributes like title, director, and rating.
+
+
+
+
+
+Create a base class Animal with a method sound() and create derived classes Dog and Cat with their own sound().
+Implement a class hierarchy to represent different types of vehicles (Car, Bike) with their own attributes and methods.
+Create a class Person with private attributes and define methods to get and set the values of those attributes.
+
+                          
+
+                      PRACTICE QUESTIONS
+
+Create a base class Shape with methods to calculate area and perimeter, and derive classes Circle and Square
+Implement a class hierarchy to represent different types of employees (Manager, Engineer) with their attributes
+Write a Python program that uses inheritance to represent a hierarchy of shapes (Triangle, Rectangle, etc.
+Create a class hierarchy to represent different types of animals (Bird, Fish) with their own attributes and methods
+Given a JSON file with product details (name, price, quantity), create a Product class with encapsulated attributes
+Implement a program that uses inheritance to represent a hierarchy of vehicles (Car, Bike, Truck, etc.
+Write a Python program that uses encapsulation to protect sensitive information in a User class.
+Create a class hierarchy to represent different types of electronics (Phone, Laptop) with their attributes
+Given a CSV file with employee details (name, position, salary), create an Employee class with private attributes
+Implement a program that uses inheritance to represent a hierarchy of shapes (Circle, Triangle, Rectangle, etc.
+
+
+
+
+
+Create a NumPy array from a Python list and perform basic operations like addition, multiplication, etc.
+Generate a NumPy array of random numbers and calculate its mean, median, and standard deviation.
+Create a NumPy array and reshape it into a different shape.
+
+
+
+
+Given a list of numbers, create a NumPy array and find the sum and product of its elements$
+Implement a program that generates a NumPy array with numbers from 0 to 9 and reshapes it into a 3x3 matrix
+Write a Python program that uses NumPy to find the mean, median, and standard deviation of a dataset
+Create a function that takes a list of numbers and returns the NumPy array sorted in ascending order
+Given a list of lists, create a 2D NumPy array and find the sum of elements in each row and column
+Implement a program that generates a random NumPy array and finds the maximum and minimum values
+Write a function that takes a NumPy array and returns a new array with all elements squared
+Given a NumPy array, calculate the dot product of the array with itself
+Create a program that uses NumPy to calculate the inverse of a 2x2 matrix
+Implement a function that takes a NumPy array and returns the transpose of the array
+
+
+
+
+
+
+
+Create a Pandas Series from a Python list and perform basic operations like filtering, sorting, etc.
+Read a CSV file into a Pandas DataFrame and perform basic data manipulation operations.
+Create a Pandas DataFrame from a dictionary and perform filtering and grouping operations.
+
+
+
+
+
+
+Given a CSV file with student details, read it into a Pandas DataFrame and find the average age of students,
+Implement a program that generates a Pandas Series with dates and filter it to get dates in a specific range,
+Write a Python program that uses Pandas to read a CSV file and find the maximum and minimum values in each column,
+Create a function that takes a Pandas DataFrame and returns a new DataFrame with rows sorted in ascending order,
+Given a Pandas DataFrame, filter the rows to include only the rows where a specific column meets a condition,
+Implement a program that reads a CSV file into a Pandas DataFrame and calculates the sum of a specific column,
+Write a function that takes a Pandas DataFrame and adds a new calculated column to the DataFrame,
+Given a Pandas DataFrame, group the data by a specific column and calculate the mean of another column,
+Create a program that reads a JSON file into a Pandas DataFrame and extracts specific information from it,
+Implement a function that takes a Pandas DataFrame and returns the transpose of the DataFrame.
+
+
+
+
+
+
+Create a simple line plot using Matplotlib to visualize a series of data points.
+Generate a scatter plot using Matplotlib to visualize the relationship between two variables.
+Create a bar plot using Seaborn to compare the categories in a dataset.
+
+
+
+Given a Pandas DataFrame, create a line plot to visualize the trend of a specific column over time)
+Implement a program that generates a histogram using Matplotlib to visualize the distribution of data)
+Write a Python program that uses Seaborn to create a scatter plot matrix for multiple variables in a DataFrame)
+Create a function that takes a Pandas DataFrame and generates a box plot to visualize the distribution of data)
+Given a CSV file with sales data, use Matplotlib to create a bar plot to compare the sales of different products)
+Implement a program that reads a JSON file into a Pandas DataFrame and uses Seaborn to create a violin plot)
+Write a function that takes a Pandas DataFrame and generates a pair plot to visualize the relationships between variables
+Given a Pandas DataFrame, create a pie chart using Matplotlib to visualize the distribution of data in a specific column
+Create a program that reads a CSV file into a Pandas DataFrame and uses Seaborn to create a swarm plot for data visualization&
+Implement a function that takes a Pandas DataFrame and generates a heatmap using Seaborn to visualize the correlation between variables.
