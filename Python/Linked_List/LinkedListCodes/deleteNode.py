@@ -16,50 +16,63 @@ def deleteLastNodeFromSinlyLinkedList(self):
         currentnode = self.head 
         previousnode = self.head 
     while currentnode.getNext() != None: 
-    previousnode = currentnode 
-    currentnode = currentnode.gctNext() 
-previousnode. seNcxt(Nonc) 
-self. length -= 1
+        previousnode = currentnode 
+        currentnode = currentnode.gctNext() 
+    previousnode.seNext(None) 
+    self.length -= 1
 
 
 
 ##Delete with node from linked list 
-def dcletcFromLinkcdListWithNodc(self, node): 
-if self. length ..... 0: 
-raise ValueE1Tor("List is empty") 
-else: 
-current= self.head 
-previous = None 
-found = False 
-while not found: 
-if current node: 
-found .. True 
-c lif current is None: 
-t 
-Node to be deleted 
-else: 
-ra ise ValucError("Nodc not in Linked List") 
-previous = current 
-current"' currenl.gelNext() 
-if previous is None: 
-else: 
-self.head • current.gclNcxl() 
-previous.scNcxt(current.getNextQ) 
-self.length -= 1 
+def deleteFromLinkedListWithNode(self, node):
+    if self.length == 0:
+        raise ValueError("List is empty") 
+    else:
+        current= self.head 
+        previous = None 
+        found = False 
+        while not found:
+            if current == node:
+                found = True 
+            elif current is None:
+                raise ValueError("Node not in Linked List") 
+            else:
+                previous = current 
+                current = current.gelNext() 
+    if previous is None:
+        self.head = current.getNext() 
+    else:
+        previous.setNext(current.getNext()) 
+    self.length -= 1 
+    
 #Delete with data from linked list 
-def dclctcValuc(sclf, value): 
-currcntnodc self.head 
-prcviousnodc self.head 
-while currentnode.next != None or currentnode.value !•value: 
-if currcntnodc. value == value: 
-prev1ousnode.next = currentnode.next 
-self.length -• l 
-return 
-else: 
-prev10usnode "' currentnodc 
-currcnlnodc currentnodc.nexl 
-print "The vnluc provided is not present~ 
-#Mel hod lo delete a node al a particular position 
-def dcleleALPosition(sclf,pos): 
-count = 0 
-3.6 Singly Linked List
+def deleteValue(self, value): 
+    currentnode = self.head 
+    previousnode = self.head 
+    while currentnode.next != None or currentnode.value != value:
+        if currentnode.value == value:
+            previousnode.next = currentnode.next 
+            self.length -= 1 
+            return 
+        else:
+            previousnode = currentnode 
+            currentnode = currentnode.next 
+    print("The vnlue provided is not present")
+    
+#Method lo delete a node at a particular position 
+def deleleAtPosition(self,pos):
+    count = 0
+    currentnode = self.head 
+    previousnode = self.head 
+    if pos > self.length or pos < 0: 
+        print("The position does not exist. Please enter a valid position") 
+    else:
+        while currentnode.next != None or count < pos:
+            count = count + 1 
+            if count == pos: 
+                previousnode.next = currentnode.next 
+                self.length -= 1 
+                return 
+            else: 
+                previousnode = currentnode 
+                currentnode = currentnode.next 
