@@ -1,6 +1,15 @@
 a = '1301'
 bins = ['0', '1']
 
+gf = "dgfg"
+print('len str ', len(gf))
+print()
+
+names = ["Geek", "Geeks", "Geeksfor",
+  "GeeksforGeek", "GeeksforGeeks"]
+  
+for i, v in enumerate(names):
+    print(i, v)
 
 print(' a b '[::-1])
 
