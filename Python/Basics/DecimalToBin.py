@@ -1,7 +1,7 @@
 
 
 class Solution:
-    def getNumber(self, Base, Number):
+    def getBinNumber(self, Base, Number):
         ans = ''
         while Number:
             remainder = Number%Base
@@ -11,7 +11,7 @@ class Solution:
 
 
 class Solution2:
-    def getNumber(self, Base, Number):
+    def getBinNumber(self, Base, Number):
         ans = ''
         while Number:
             remainder = Number%Base
