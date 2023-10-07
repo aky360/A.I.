@@ -22,10 +22,10 @@ class Solution:
 
 class Solution:
     def getBinNumber(self, Base, Number):
-    ans = ''
-    while Number:
-        ans = str(Number&1) + ans
-        Number //= Base
+        ans = ''
+        while Number:
+            ans = str(Number&1) + ans
+            Number //= Base
         return ans
 
 
