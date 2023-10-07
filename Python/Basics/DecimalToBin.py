@@ -9,8 +9,6 @@ class Solution:
             Number //= Base
         return ans
 
-
-class Solution:
     def getBinNumber(self, Base, Number):
         ans = ''
         while Number:
@@ -18,6 +16,7 @@ class Solution:
             ans = ans+str(remainder)
             Number //= Base
         return ans[::-1]
+    
 
 
 class Solution:
@@ -27,6 +26,7 @@ class Solution:
             ans = str(Number&1) + ans
             Number //= Base
         return ans
+
 
 
 class Solution:
