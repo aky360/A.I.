@@ -10,7 +10,7 @@ class Solution:
         return ans
 
 
-class Solution2:
+class Solution:
     def getBinNumber(self, Base, Number):
         ans = ''
         while Number:
@@ -18,8 +18,17 @@ class Solution2:
             ans = ans+str(remainder)
             Number //= Base
         return ans[::-1]
-    
-    
+
+
+class Solution:
+    def getBinNumber(self, Base, Number):
+    ans = ''
+    while Number:
+        ans = str(Number&1) + ans
+        Number //= B
+        return ans
+
+
 if __name__ == "__main__":
     Sol = Solution()
     print(Sol.getNumber(2, 100))
