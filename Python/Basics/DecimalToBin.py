@@ -15,7 +15,7 @@ class Solution2:
         ans = ''
         while Number:
             remainder = Number%Base
-            ans = ans + str(remainder)
+            ans = ans+str(remainder)
             Number //= Base
         return ans[::-1]
     
