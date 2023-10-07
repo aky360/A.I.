@@ -8,6 +8,16 @@ class Solution:
             ans = str(remainder)+ans
             Number //= Base
         return ans
+
+
+class Solution2:
+    def getNumber(self, Base, Number):
+        ans = ''
+        while Number:
+            remainder = Number%Base
+            ans = ans + str(remainder)
+            Number //= Base
+        return ans[::-1]
     
     
 if __name__ == "__main__":
