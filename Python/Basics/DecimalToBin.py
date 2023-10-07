@@ -25,7 +25,7 @@ class Solution:
     ans = ''
     while Number:
         ans = str(Number&1) + ans
-        Number //= B
+        Number //= Base
         return ans
 
 
