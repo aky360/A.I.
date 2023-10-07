@@ -26,7 +26,7 @@ class Solution:
         while Number:
             ans = str(Number&1) + ans
             Number //= Base
-    return ans
+        return ans
 
 
 if __name__ == "__main__":
