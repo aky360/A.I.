@@ -29,6 +29,23 @@ class Solution:
         return ans
 
 
+class Solution:
+    def dec2Bin(self, B, N):
+        ans=""
+        while N:
+            ans += str(N&1)
+            N = N >> 1
+        ans = ans[::-1]
+        return ans
+        
+    def dec2Bin(self, B, N):
+        ans=""
+        while N:
+            ans = str(N&1)+ans
+            N = N >> 1
+        return ans
+
+
 if __name__ == "__main__":
     Sol = Solution()
     print(Sol.getNumber(2, 100))
