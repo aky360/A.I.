@@ -39,3 +39,16 @@ class Solution:
                 ans += " "
         
         return ans
+
+
+
+class Solution:
+    def reciprocalString(self, S):
+        tmp1='abcdefghijklmnopqrstuvwxyz'
+        tmp2='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+        x=''
+        for i in S:
+            if i in tmp1: x+=tmp1[::-1][tmp1.index(i)]
+            elif i in tmp2: x+=tmp2[::-1][tmp2.index(i)]
+            else: x+=i
+        return x
