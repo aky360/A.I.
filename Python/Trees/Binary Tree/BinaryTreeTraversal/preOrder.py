@@ -1,7 +1,7 @@
 
 """Pre-order recursive traversal. The nodes' values are appended to the result list in traversal order"""
 def preOrderRecursive(root, result): 
-    if not root:
+    if(not root):
         return 
     result.append(root.data) 
     preOrderRecursive(root.left, result) 
@@ -9,8 +9,8 @@ def preOrderRecursive(root, result):
 
 
 """Pre-order iterative traversal. The nodes' values are appended to the result list in traversal order"""
-def preOrder_iteraUve(root, result):
-    if not root:
+def preOrder_iterative(root, result):
+    if(not root):
         return
     stack=[]
     stack.append(root) 
