@@ -118,3 +118,36 @@ if __name__ == '__main__':
 	print(q.deQueue())
 	print(q.deQueue())
 	print(q.deQueue()) 
+
+===========================================================================================================================
+
+# Python3 program to implement Queue using 
+# one stack and recursive call stack. 
+class Queue:
+	def __init__(self): self.s = []
+		
+	def enQueue(self, data):
+		self.s.append(data)
+		
+	def deQueue(self):
+		# Return if queue is empty
+		if len(self.s) == 0: return -1
+		self.s = self.s[::-1]
+		return self.s.pop()
+	
+	def __str__(self): return str(self.s)
+	
+# Driver code 
+if __name__ == '__main__':
+	q = Queue()
+	q.enQueue(1)
+	q.enQueue(2)
+	q.enQueue(3)
+	
+	print(q)
+	
+	print(q.deQueue())
+	print(q.deQueue())
+	print(q.deQueue())
+	
+	print(q)
