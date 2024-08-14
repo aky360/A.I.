@@ -132,8 +132,7 @@ class Queue:
 	def deQueue(self):
 		# Return if queue is empty
 		if len(self.s) == 0: return -1
-		self.s = self.s[::-1]
-		return self.s.pop()
+		return self.s.pop(0)
 	
 	def __str__(self): return str(self.s)
 	
