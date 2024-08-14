@@ -1,32 +1,20 @@
+# Python3 program to implement Queue using 
+# two stacks with costly enQueue() 
+
 class Queue: 
-	def __init__(self): 
-		self.s1 = [] 
-		self.s2 = []
+	def __init__(self):
+		self.s1,self.s2  = [],[]
 
 	def enQueue(self, x):
-		# Move all elements from s1 to s2 
-		while self.s1: 
-			self.s2.append(self.s1[-1]) 
-			self.s1.pop()
-
-		# Push item into self.s1 
-		self.s1.append(x) 
-
-		# Push everything back to s1 
-		while self.s2: 
-			self.s1.append(self.s2[-1]) 
-			self.s2.pop()
-
-	# Dequeue an item from the queue 
+		while self.s1: self.s2.append(self.s1.pop())
+		self.s1.append(x)
+		while self.s2: self.s1.append(self.s2.pop()) 
+			
 	def deQueue(self):
-			# if first stack is empty 
-		if len(self.s1) == 0: 
-			return -1;
-	
-		# Return top of self.s1 
-		x = self.s1[-1] 
-		self.s1.pop() 
-		return x
+		if len(self.s1) == 0: return -1;
+		return self.s1.pop() 
+		
+	def __str__(self): return str(self.s1)
 
 # Driver code 
 if __name__ == '__main__':
@@ -34,6 +22,8 @@ if __name__ == '__main__':
 	q.enQueue(1) 
 	q.enQueue(2) 
 	q.enQueue(3) 
+	
+	print(q)
 
 	print(q.deQueue())
 	print(q.deQueue())
