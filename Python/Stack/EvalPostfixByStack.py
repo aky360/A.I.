@@ -42,8 +42,9 @@ class Evaluate:
                             '/': val2 / val1
                 }
                 self.push(switcher.get(i))
-                # Apply the operator and push the result back to the stack
-                # self.push(self.applyOperator(val2, val1, i))
+                # OR 
+                # self.push(switcher[i])
+
         return self.pop()
         
 # Driver code
