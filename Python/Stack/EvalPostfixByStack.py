@@ -1,11 +1,9 @@
 # Python program to evaluate the value of a postfix expression
-
 # Class to evaluate postfix expressions
 class Evaluate:
 
     def __init__(self, capacity):
         self.capacity = capacity
-        # This array is used as a stack
         self.array = []
 
     def isEmpty(self):
@@ -23,43 +21,61 @@ class Evaluate:
     def push(self, op):
         self.array.append(op)
 
-    # The main function that evaluates a given postfix expression
     def evaluatePostfix(self, exp):
-        # Iterate over the expression for every character
         for i in exp:
-            # If the character is a digit, push it to the stack
             if i.isdigit():
                 self.push(int(i))
             else:
-                # Pop two elements from the stack for the operator
                 val1 = self.pop()
                 val2 = self.pop()
-                switcher = {
-                            '+': val2 + val1, 
-                            '-': val2 - val1, 
-                            '*': val2 * val1, 
-                            '^': val2**val1,
-                            '/': val2 / val1
-                }
-                self.push(switcher.get(i))
-                # OR 
-                # self.push(switcher[i])
+                self.push(eval(f'{val2} {i} {val1}'))
 
         return self.pop()
         
 # Driver code
 if __name__ == '__main__':
-    # Postfix expression with spaces separating elements
     postfix_exp = '100 200 + 2 / 5 * 7 +'
     expr = "231*+9-"
     exp =''
     if ' ' in postfix_exp:
-        # Split the expression into a list
         exp = postfix_exp.split()
-    # Create an object of the Evaluate class with a size equal to the expression length
     obj = Evaluate(len(exp))
     obj2 = Evaluate(len(expr))
 
-    # Evaluate the postfix expression
     print("Postfix evaluation: %d" % (obj.evaluatePostfix(exp)))
     print("Postfix evaluation: %d" % (obj2.evaluatePostfix(expr)))
+
+===============================================================================================================================
+
+class evalpostfix:
+	def __init__(self):
+		self.stack = []
+		self.top = -1
+
+	def pop(self):
+		if self.top == -1:
+			return
+		else:
+			self.top -= 1
+			return self.stack.pop()
+
+	def push(self, i):
+		self.top += 1
+		self.stack.append(i)
+
+	def evaluatePostfix(self, ab):
+		for i in ab:
+			try:
+				self.push(int(i))
+			except ValueError:
+				val1 = self.pop()
+				val2 = self.pop()
+				self.push(eval(f'{val2} {i} {val1}'))
+		return int(self.pop())
+
+# Driver code
+if __name__ == '__main__':
+	str = '100 200 + 2 / 5 * 7 +'
+	strconv = str.split(' ')
+	obj = evalpostfix()
+	print(obj.evaluatePostfix(strconv))
