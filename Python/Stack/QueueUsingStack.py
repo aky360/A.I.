@@ -80,28 +80,13 @@ class Queue:
 		self.s.append(data)
 		
 	def deQueue(self):
-		# Return if queue is empty
 		if len(self.s) <= 0:
 			return -1
-		
-		# pop an item from the stack
-		x = self.s[len(self.s) - 1]
-		self.s.pop()
-		
-		# if stack become empty
-		# return the popped item
+		x = self.s.pop()
 		if len(self.s) <= 0:
 			return x
-			
-		# recursive call
 		item = self.deQueue()
-		
-		# push popped item back to
-		# the stack
 		self.s.append(x)
-	
-		# return the result of 
-		# deQueue() call
 		return item
 	
 	def __str__(self): return str(self.s)
@@ -130,7 +115,6 @@ class Queue:
 		self.s.append(data)
 		
 	def deQueue(self):
-		# Return if queue is empty
 		if len(self.s) == 0: return -1
 		return self.s.pop(0)
 	
