@@ -28,3 +28,25 @@ class Solution:
         for i in range(1,k):
             heapq.heappop(arr)
         return heapq.heappop(arr)
+
+
+==========================================================================================================================================
+
+"""
+Alternative in one single line code for find the kth smallest and kth largest value from the heap in python. 
+You can also use built-in functions heapq.nsmallest() and heapq.nlargest() for a simpler solution.
+"""
+import heapq
+arr = [10000, 11, 445, 1, 330, 30000,-1]
+heapq.heapify(arr)
+print(arr)        # arr is converted into min heap
+# removed=heapq.heappop(arr)
+# print(removed)
+k=3
+kth_smallest = heapq.nsmallest(k, arr)[-1]
+kth_largest = heapq.nlargest(k, arr)[-1]
+print(kth_smallest,kth_largest)
+
+
+
+
